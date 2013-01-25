@@ -1,0 +1,59 @@
+=====================Lazy Classification Report====================
+========================================================
+#TIME: Training data read time = 0.001
+#TIME: Objects to be classified read time = 0.001
+========================================================
+#BEGIN Classification of object no [0]
+========================================================
+#TIME: Reduced table creation = 0
+========================================================
+#INFO Number of objects in training data = 14
+#INFO Number of attributes = 4
+#INFO Number of classes = 2
+========================================================
+#TIME: Candidates of length [1] generation & support count = 0
+========================================================
+#BEGIN: Candidates of length [2]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 6
+#INFO Number of candidates without contrast patterns = 5
+#INFO Number of candidates after Generator optimization = 5
+#TIME: Total time = 0
+#END: Candidates of length [2]
+========================================================
+#BEGIN: Candidates of length [3]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.001
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 2
+#INFO Number of candidates without contrast patterns = 1
+#INFO Number of candidates after Generator optimization = 1
+#TIME: Total time = 0.001
+#END: Candidates of length [3]
+========================================================
+#INFO Total number of generated candidates = 8
+========================================================
+#INFO Total number of minimal contrast patterns = 2
+========================================================
+#TIME: Total time of finding minimal contrast patterns = 0.001
+========================================================
+#TIME: Build hash tree = 0
+#TIME: Assign compact supports = 0
+========================================================
+#INFO Compact score for class [0] = 0.111111
+#INFO Compact score for class [1] = 0.6
+========================================================
+#TIME: Total time of scorer execution = 0
+========================================================
+Object no [0] classified to class [N]
+========================================================
+#END Classification of object no [0]
+========================================================
+Classification quality = 0
+#TIME: Total execution time = 0.003

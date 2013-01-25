@@ -1,0 +1,507 @@
+ÿQ=====================Lazy Classification Report====================
+========================================================
+#TIME: Training data read time = 3.105
+#TIME: Objects to be classified read time = 0.001
+========================================================
+#BEGIN Classification of object no [0]
+========================================================
+#TIME: Reduced table creation = 0.003
+========================================================
+#INFO Number of objects in training data = 19997
+#INFO Number of attributes = 16
+#INFO Number of classes = 26
+========================================================
+#TIME: Candidates of length [1] generation & support count = 0.003
+========================================================
+#BEGIN: Candidates of length [2]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.074
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 120
+#INFO Number of candidates without contrast patterns = 120
+#TIME: Total time = 0.074
+#END: Candidates of length [2]
+========================================================
+#BEGIN: Candidates of length [3]
+#TIME: Generate candidates = 0.003
+#TIME: Build hash tree = 0.001
+#TIME: Subset and count support = 0.083
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 560
+#INFO Number of candidates without contrast patterns = 547
+#TIME: Total time = 0.088
+#END: Candidates of length [3]
+========================================================
+#BEGIN: Candidates of length [4]
+#TIME: Generate candidates = 0.012
+#TIME: Build hash tree = 0.003
+#TIME: Subset and count support = 0.08
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.002
+#INFO Number of candidates = 1723
+#INFO Number of candidates without contrast patterns = 1641
+#TIME: Total time = 0.097
+#END: Candidates of length [4]
+========================================================
+#BEGIN: Candidates of length [5]
+#TIME: Generate candidates = 0.093
+#TIME: Build hash tree = 0.014
+#TIME: Subset and count support = 0.082
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.008
+#INFO Number of candidates = 3695
+#INFO Number of candidates without contrast patterns = 3053
+#TIME: Total time = 0.198
+#END: Candidates of length [5]
+========================================================
+#BEGIN: Candidates of length [6]
+#TIME: Generate candidates = 0.117
+#TIME: Build hash tree = 0.02
+#TIME: Subset and count support = 0.073
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.015
+#INFO Number of candidates = 4748
+#INFO Number of candidates without contrast patterns = 3355
+#TIME: Total time = 0.226
+#END: Candidates of length [6]
+========================================================
+#BEGIN: Candidates of length [7]
+#TIME: Generate candidates = 0.401
+#TIME: Build hash tree = 0.013
+#TIME: Subset and count support = 0.145
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.012
+#INFO Number of candidates = 3280
+#INFO Number of candidates without contrast patterns = 2323
+#TIME: Total time = 0.572
+#END: Candidates of length [7]
+========================================================
+#BEGIN: Candidates of length [8]
+#TIME: Generate candidates = 0.09
+#TIME: Build hash tree = 0.006
+#TIME: Subset and count support = 0.142
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.007
+#INFO Number of candidates = 1376
+#INFO Number of candidates without contrast patterns = 1123
+#TIME: Total time = 0.245
+#END: Candidates of length [8]
+========================================================
+#BEGIN: Candidates of length [9]
+#TIME: Generate candidates = 0.22
+#TIME: Build hash tree = 0.095
+#TIME: Subset and count support = 2.995
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.002
+#INFO Number of candidates = 432
+#INFO Number of candidates without contrast patterns = 399
+#TIME: Total time = 3.313
+#END: Candidates of length [9]
+========================================================
+#BEGIN: Candidates of length [10]
+#TIME: Generate candidates = 0.018
+#TIME: Build hash tree = 0.009
+#TIME: Subset and count support = 1.038
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 104
+#INFO Number of candidates without contrast patterns = 102
+#TIME: Total time = 1.066
+#END: Candidates of length [10]
+========================================================
+#BEGIN: Candidates of length [11]
+#TIME: Generate candidates = 0.001
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.465
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 16
+#INFO Number of candidates without contrast patterns = 16
+#TIME: Total time = 0.467
+#END: Candidates of length [11]
+========================================================
+#BEGIN: Candidates of length [12]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.104
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 1
+#INFO Number of candidates without contrast patterns = 1
+#TIME: Total time = 0.104
+#END: Candidates of length [12]
+========================================================
+#INFO Total number of generated candidates = 16055
+========================================================
+#INFO Total number of minimal contrast patterns = 3375
+========================================================
+#TIME: Total time of finding minimal contrast patterns = 6.453
+========================================================
+#TIME: Build hash tree = 0.05
+#TIME: Assign compact supports = 0.063
+========================================================
+#INFO Compact score for class [0] = 0
+#INFO Compact score for class [1] = 0
+#INFO Compact score for class [2] = 0.00124224
+#INFO Compact score for class [3] = 0.00255428
+#INFO Compact score for class [4] = 0.0181113
+#INFO Compact score for class [5] = 0.00802139
+#INFO Compact score for class [6] = 0
+#INFO Compact score for class [7] = 0.00381194
+#INFO Compact score for class [8] = 0.00664011
+#INFO Compact score for class [9] = 0.00527704
+#INFO Compact score for class [10] = 0.00129032
+#INFO Compact score for class [11] = 0
+#INFO Compact score for class [12] = 0
+#INFO Compact score for class [13] = 0.0449591
+#INFO Compact score for class [14] = 0.00132979
+#INFO Compact score for class [15] = 0.00131406
+#INFO Compact score for class [16] = 0.266667
+#INFO Compact score for class [17] = 0.00124533
+#INFO Compact score for class [18] = 0.0078125
+#INFO Compact score for class [19] = 0
+#INFO Compact score for class [20] = 0
+#INFO Compact score for class [21] = 0.0166028
+#INFO Compact score for class [22] = 0
+#INFO Compact score for class [23] = 0
+#INFO Compact score for class [24] = 0.00135318
+#INFO Compact score for class [25] = 0.00408719
+========================================================
+#TIME: Total time of scorer execution = 0.113
+========================================================
+Object no [0] classified to class [B]
+========================================================
+#END Classification of object no [0]
+========================================================
+========================================================
+#BEGIN Classification of object no [1]
+========================================================
+#TIME: Training data read time = 2.192
+#TIME: Reduced table creation = 0.003
+========================================================
+#INFO Number of objects in training data = 19997
+#INFO Number of attributes = 16
+#INFO Number of classes = 26
+========================================================
+#TIME: Candidates of length [1] generation & support count = 0.003
+========================================================
+#BEGIN: Candidates of length [2]
+#TIME: Generate candidates = 0.002
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.044
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 120
+#INFO Number of candidates without contrast patterns = 119
+#TIME: Total time = 0.046
+#END: Candidates of length [2]
+========================================================
+#BEGIN: Candidates of length [3]
+#TIME: Generate candidates = 0.009
+#TIME: Build hash tree = 0.002
+#TIME: Subset and count support = 0.046
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 549
+#INFO Number of candidates without contrast patterns = 447
+#TIME: Total time = 0.057
+#END: Candidates of length [3]
+========================================================
+#BEGIN: Candidates of length [4]
+#TIME: Generate candidates = 0.037
+#TIME: Build hash tree = 0.003
+#TIME: Subset and count support = 0.044
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 1238
+#INFO Number of candidates without contrast patterns = 914
+#TIME: Total time = 0.086
+#END: Candidates of length [4]
+========================================================
+#BEGIN: Candidates of length [5]
+#TIME: Generate candidates = 0.037
+#TIME: Build hash tree = 0.005
+#TIME: Subset and count support = 0.081
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.003
+#INFO Number of candidates = 1553
+#INFO Number of candidates without contrast patterns = 1024
+#TIME: Total time = 0.127
+#END: Candidates of length [5]
+========================================================
+#BEGIN: Candidates of length [6]
+#TIME: Generate candidates = 0.172
+#TIME: Build hash tree = 0.004
+#TIME: Subset and count support = 0.111
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.003
+#INFO Number of candidates = 1051
+#INFO Number of candidates without contrast patterns = 710
+#TIME: Total time = 0.29
+#END: Candidates of length [6]
+========================================================
+#BEGIN: Candidates of length [7]
+#TIME: Generate candidates = 0.15
+#TIME: Build hash tree = 0.02
+#TIME: Subset and count support = 0.097
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.002
+#INFO Number of candidates = 510
+#INFO Number of candidates without contrast patterns = 406
+#TIME: Total time = 0.269
+#END: Candidates of length [7]
+========================================================
+#BEGIN: Candidates of length [8]
+#TIME: Generate candidates = 0.021
+#TIME: Build hash tree = 0.007
+#TIME: Subset and count support = 0.122
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.002
+#INFO Number of candidates = 258
+#INFO Number of candidates without contrast patterns = 243
+#TIME: Total time = 0.152
+#END: Candidates of length [8]
+========================================================
+#BEGIN: Candidates of length [9]
+#TIME: Generate candidates = 0.007
+#TIME: Build hash tree = 0.003
+#TIME: Subset and count support = 0.066
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 132
+#INFO Number of candidates without contrast patterns = 131
+#TIME: Total time = 0.077
+#END: Candidates of length [9]
+========================================================
+#BEGIN: Candidates of length [10]
+#TIME: Generate candidates = 0.001
+#TIME: Build hash tree = 0.001
+#TIME: Subset and count support = 0.29
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 47
+#INFO Number of candidates without contrast patterns = 47
+#TIME: Total time = 0.293
+#END: Candidates of length [10]
+========================================================
+#BEGIN: Candidates of length [11]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.097
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 10
+#INFO Number of candidates without contrast patterns = 10
+#TIME: Total time = 0.097
+#END: Candidates of length [11]
+========================================================
+#BEGIN: Candidates of length [12]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.068
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 1
+#INFO Number of candidates without contrast patterns = 1
+#TIME: Total time = 0.068
+#END: Candidates of length [12]
+========================================================
+#INFO Total number of generated candidates = 5469
+========================================================
+#INFO Total number of minimal contrast patterns = 1417
+========================================================
+#TIME: Total time of finding minimal contrast patterns = 1.565
+========================================================
+#TIME: Build hash tree = 0.006
+#TIME: Assign compact supports = 0.076
+========================================================
+#INFO Compact score for class [0] = 0.00251256
+#INFO Compact score for class [1] = 0.00264901
+#INFO Compact score for class [2] = 0
+#INFO Compact score for class [3] = 0.00127714
+#INFO Compact score for class [4] = 0
+#INFO Compact score for class [5] = 0
+#INFO Compact score for class [6] = 0
+#INFO Compact score for class [7] = 0
+#INFO Compact score for class [8] = 0.00132802
+#INFO Compact score for class [9] = 0
+#INFO Compact score for class [10] = 0.00258065
+#INFO Compact score for class [11] = 0
+#INFO Compact score for class [12] = 0.036193
+#INFO Compact score for class [13] = 0
+#INFO Compact score for class [14] = 0
+#INFO Compact score for class [15] = 0.0183968
+#INFO Compact score for class [16] = 0
+#INFO Compact score for class [17] = 0.0161893
+#INFO Compact score for class [18] = 0
+#INFO Compact score for class [19] = 0.0026178
+#INFO Compact score for class [20] = 0.0585242
+#INFO Compact score for class [21] = 0.00893997
+#INFO Compact score for class [22] = 0.378173
+#INFO Compact score for class [23] = 0
+#INFO Compact score for class [24] = 0.00405954
+#INFO Compact score for class [25] = 0.0122616
+========================================================
+#TIME: Total time of scorer execution = 0.082
+========================================================
+Object no [1] classified to class [A]
+========================================================
+#END Classification of object no [1]
+========================================================
+========================================================
+#BEGIN Classification of object no [2]
+========================================================
+#TIME: Training data read time = 2.756
+#TIME: Reduced table creation = 0.003
+========================================================
+#INFO Number of objects in training data = 19997
+#INFO Number of attributes = 16
+#INFO Number of classes = 26
+========================================================
+#TIME: Candidates of length [1] generation & support count = 0.004
+========================================================
+#BEGIN: Candidates of length [2]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0.001
+#TIME: Subset and count support = 0.05
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 120
+#INFO Number of candidates without contrast patterns = 118
+#TIME: Total time = 0.051
+#END: Candidates of length [2]
+========================================================
+#BEGIN: Candidates of length [3]
+#TIME: Generate candidates = 0.003
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.052
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0
+#INFO Number of candidates = 535
+#INFO Number of candidates without contrast patterns = 503
+#TIME: Total time = 0.056
+#END: Candidates of length [3]
+========================================================
+#BEGIN: Candidates of length [4]
+#TIME: Generate candidates = 0.011
+#TIME: Build hash tree = 0.003
+#TIME: Subset and count support = 0.05
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.001
+#INFO Number of candidates = 1514
+#INFO Number of candidates without contrast patterns = 1095
+#TIME: Total time = 0.066
+#END: Candidates of length [4]
+========================================================
+#BEGIN: Candidates of length [5]
+#TIME: Generate candidates = 0.062
+#TIME: Build hash tree = 0.007
+#TIME: Subset and count support = 0.048
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.004
+#INFO Number of candidates = 2053
+#INFO Number of candidates without contrast patterns = 1102
+#TIME: Total time = 0.122
+#END: Candidates of length [5]
+========================================================
+#BEGIN: Candidates of length [6]
+#TIME: Generate candidates = 0.288
+#TIME: Build hash tree = 0.012
+#TIME: Subset and count support = 0.068
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.004
+#INFO Number of candidates = 1146
+#INFO Number of candidates without contrast patterns = 592
+#TIME: Total time = 0.372
+#END: Candidates of length [6]
+========================================================
+#BEGIN: Candidates of length [7]
+#TIME: Generate candidates = 0.041
+#TIME: Build hash tree = 0.048
+#TIME: Subset and count support = 2.34
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.002
+#INFO Number of candidates = 301
+#INFO Number of candidates without contrast patterns = 188
+#TIME: Total time = 2.431
+#END: Candidates of length [7]
+========================================================
+#BEGIN: Candidates of length [8]
+#TIME: Generate candidates = 0.006
+#TIME: Build hash tree = 0.003
+#TIME: Subset and count support = 1.132
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0
+#INFO Number of candidates = 46
+#INFO Number of candidates without contrast patterns = 31
+#TIME: Total time = 1.142
+#END: Candidates of length [8]
+========================================================
+#BEGIN: Candidates of length [9]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.187
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 3
+#INFO Number of candidates without contrast patterns = 2
+#TIME: Total time = 0.187
+#END: Candidates of length [9]
+========================================================
+#BEGIN: Candidates of length [10]
+#TIME: Generate candidates = 0
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.192
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+#INFO Number of candidates = 0
+#INFO Number of candidates without contrast patterns = 0
+#TIME: Total time = 0.192
+#END: Candidates of length [10]
+========================================================
+#INFO Total number of generated candidates = 5718
+========================================================
+#INFO Total number of minimal contrast patterns = 2087
+========================================================
+#TIME: Total time of finding minimal contrast patterns = 4.623
+========================================================
+#TIME: Build hash tree = 0.035
+#TIME: Assign compact supports = 0.069
+========================================================
+#INFO Compact score for class [0] = 0
+#INFO Compact score for class [1] = 0
+#INFO Compact score for class [2] = 0
+#INFO Compact score for class [3] = 0
+#INFO Compact score for class [4] = 0
+#INFO Compact score for class [5] = 0
+#INFO Compact score for class [6] = 0
+#INFO Compact score for class [7] = 0
+#INFO Compact score for class [8] = 0
+#INFO Compact score for class [9] = 0
+#INFO Compact score for class [10] = 0
+#INFO Compact score for class [11] = 0
+#INFO Compact score for class [12] = 0.30563
+#INFO Compact score for class [13] = 0
+#INFO Compact score for class [14] = 0
+#INFO Compact score for class [15] = 0
+#INFO Compact score for class [16] = 0
+#INFO Compact score for class [17] = 0
+#INFO Compact score for class [18] = 0
+#INFO Compact score for class [19] = 0
+#INFO Compact score for class [20] = 0
+#INFO Compact score for class [21] = 0
+#INFO Compact score for class [22] = 0
+#INFO Compact score for class [23] = 0
+#INFO Compact score for class [24] = 0
+#INFO Compact score for class [25] = 0
+========================================================
+#TIME: Total time of scorer execution = 0.104
+========================================================
+Object no [2] classified to class [J]
+========================================================
+#END Classification of object no [2]
+========================================================
+#TIME: Total execution time = 21.126

@@ -1,0 +1,206 @@
+ящ#TIME: Training data read time = 4.322
+#TIME: Objects to be classified read time = 0.001
+#TIME: Reduced table creation = 0.006
+Candidate 1 is contast pattern: 0
+Candidate 2 is contast pattern: 0
+Candidate 3 is contast pattern: 0
+Candidate 4 is contast pattern: 0
+Candidate 5 is contast pattern: 0
+Candidate 6 is contast pattern: 0
+Candidate 7 is contast pattern: 0
+Candidate 8 is contast pattern: 0
+Candidate 9 is contast pattern: 0
+Candidate 10 is contast pattern: 0
+Candidate 11 is contast pattern: 0
+Candidate 12 is contast pattern: 0
+Candidate 13 is contast pattern: 0
+Candidate 14 is contast pattern: 0
+Candidate 15 is contast pattern: 0
+Candidate 16 is contast pattern: 0
+#TIME: Candidates of length 1 generation & support count = 0.013
+########################
+Candidates of length [2]
+#TIME: Generate candidates = 0.001
+
+
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.1
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+Number of candidates = 120
+Number of candidates without contrast patterns = 119
+########################
+Candidates of length [3]
+#TIME: Generate candidates = 0.009
+
+
+#TIME: Build hash tree = 0.001
+#TIME: Subset and count support = 0.091
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+Number of candidates = 547
+Number of candidates without contrast patterns = 502
+########################
+Candidates of length [4]
+#TIME: Generate candidates = 0.035
+
+
+#TIME: Build hash tree = 0.008
+#TIME: Subset and count support = 0.091
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.005
+Number of candidates = 1422
+Number of candidates without contrast patterns = 1003
+########################
+Candidates of length [5]
+#TIME: Generate candidates = 0.317
+
+
+#TIME: Build hash tree = 0.016
+#TIME: Subset and count support = 0.13
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.012
+Number of candidates = 1544
+Number of candidates without contrast patterns = 1157
+########################
+Candidates of length [6]
+#TIME: Generate candidates = 1.469
+
+
+#TIME: Build hash tree = 0.017
+#TIME: Subset and count support = 0.311
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0.014
+Number of candidates = 1405
+Number of candidates without contrast patterns = 1351
+########################
+Candidates of length [7]
+#TIME: Generate candidates = 1.578
+
+
+#TIME: Build hash tree = 0.022
+#TIME: Subset and count support = 0.184
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.017
+Number of candidates = 1687
+Number of candidates without contrast patterns = 1686
+########################
+Candidates of length [8]
+#TIME: Generate candidates = 0.116
+
+
+#TIME: Build hash tree = 0.023
+#TIME: Subset and count support = 0.306
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.02
+Number of candidates = 1777
+Number of candidates without contrast patterns = 1777
+########################
+Candidates of length [9]
+#TIME: Generate candidates = 0.121
+
+
+#TIME: Build hash tree = 0.019
+#TIME: Subset and count support = 0.26
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.016
+Number of candidates = 1459
+Number of candidates without contrast patterns = 1459
+########################
+Candidates of length [10]
+#TIME: Generate candidates = 1.555
+
+
+#TIME: Build hash tree = 0.196
+#TIME: Subset and count support = 0.396
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.011
+Number of candidates = 901
+Number of candidates without contrast patterns = 901
+########################
+Candidates of length [11]
+#TIME: Generate candidates = 0.275
+
+
+#TIME: Build hash tree = 0.188
+#TIME: Subset and count support = 2.232
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.005
+Number of candidates = 403
+Number of candidates without contrast patterns = 403
+########################
+Candidates of length [12]
+#TIME: Generate candidates = 0.04
+
+
+#TIME: Build hash tree = 0.075
+#TIME: Subset and count support = 6.798
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.01
+Number of candidates = 123
+Number of candidates without contrast patterns = 123
+########################
+Candidates of length [13]
+#TIME: Generate candidates = 0.009
+
+
+#TIME: Build hash tree = 0.006
+#TIME: Subset and count support = 2.682
+#TIME: Collect Contrast Pattern = 0.001
+#TIME: Delete tree = 0.003
+Number of candidates = 23
+Number of candidates without contrast patterns = 23
+########################
+Candidates of length [14]
+#TIME: Generate candidates = 0
+
+
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.931
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+Number of candidates = 2
+Number of candidates without contrast patterns = 2
+########################
+Candidates of length [15]
+#TIME: Generate candidates = 0
+
+
+#TIME: Build hash tree = 0
+#TIME: Subset and count support = 0.913
+#TIME: Collect Contrast Pattern = 0
+#TIME: Delete tree = 0
+Number of candidates = 0
+Number of candidates without contrast patterns = 0
+Candidates total count = 11413
+#TIME: hash tree build = 0.058
+#TIME: assign compact supports = 0.289
+score dla klasy 0: 0.0100503
+score dla klasy 1: 0.0463576
+score dla klasy 2: 0.0124224
+score dla klasy 3: 0.00127714
+score dla klasy 4: 0.0633894
+score dla klasy 5: 0.0106952
+score dla klasy 6: 0.00261097
+score dla klasy 7: 0.0494297
+score dla klasy 8: 0.0843373
+score dla klasy 9: 0.00378788
+score dla klasy 10: 0.0177891
+score dla klasy 11: 0.00398406
+score dla klasy 12: 0
+score dla klasy 13: 0.00258065
+score dla klasy 14: 0.00271739
+score dla klasy 15: 0
+score dla klasy 16: 0
+score dla klasy 17: 0.0275953
+score dla klasy 18: 0.00498132
+score dla klasy 19: 0.0130208
+score dla klasy 20: 0.0013089
+score dla klasy 21: 0.00890585
+score dla klasy 22: 0.0127714
+score dla klasy 23: 0
+score dla klasy 24: 0.00405954
+score dla klasy 25: 0.0108992
+Wybrana klasa to : 8#TIME: SCORER execution time = 0.348
+#TIME: Classification of object no  = 22.747
+#TIME: Total time = 27.076

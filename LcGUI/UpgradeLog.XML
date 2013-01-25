@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LcGUI">
+</Property><Property Name="Solution File" Value="C:\Users\artur\Downloads\LcGUI\LcGUI\LcGUI.sln">
+</Property><Property Name="User Options File" Value="C:\Users\artur\Downloads\LcGUI\LcGUI\LcGUI.suo">
+</Property><Property Name="Date" Value="January-24-13">
+</Property><Property Name="Time" Value="20:05 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LcGUI.sln" Description="File successfully backed up as C:\Users\artur\Downloads\LcGUI\LcGUI\LcGUI.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="LcGUI.suo" Description="File successfully backed up as C:\Users\artur\Downloads\LcGUI\LcGUI\LcGUI.suo.old">
+</Event><Event ErrorLevel="0" Project="LcGUI" Source="LcGUI\LcGUI.vcproj" Description="Converting project file 'C:\Users\artur\Downloads\LcGUI\LcGUI\LcGUI\LcGUI.vcproj'.">
+</Event><Event ErrorLevel="1" Project="LcGUI" Source="LcGUI\LcGUI.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="LcGUI" Source="LcGUI\LcGUI.vcproj" Description="Done converting to new project file 'C:\Users\artur\Downloads\LcGUI\LcGUI\LcGUI\LcGUI.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="LcGUI" Source="LcGUI\LcGUI.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LcGUI.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LcGUI.sln" Description="Converted">
+</Event></UpgradeLog>
