@@ -210,10 +210,11 @@ private:
 				}
 			}
 			unsigned long hashCode = calculateHashCode(&subset);
+			//checks if in hashMap and   
 			if(mapOfCandidatesForGenerators.find(hashCode) != mapOfCandidatesForGenerators.end()) {
 				vector<Candidate*>* candidatesOfHashCode = mapOfCandidatesForGenerators[hashCode];
 				for(int k = 0; k < candidatesOfHashCode->size(); k++) {
-					if((*candidatesOfHashCode)[k]->attributesEquals(&subset) && (*candidatesOfHashCode)[k]->equalsToSupports(candidate->getSupports())) {
+					if((*candidatesOfHashCode)[k]->attributesEquals(&subset) && (*candidatesOfHashCode)[k]->getTotalSupportCounterAllClasses() == (candidate->getTotalSupportCounterAllClasses())) {
 						return true;
 					}
 				}

@@ -19,7 +19,7 @@ class HashTreeNode {
 
 	public:
         HashTreeNode(int hash_arg, int candidateLenght = 0, int level = 0) : hash_arg(hash_arg), candidateLenght(candidateLenght), level(level) {
-            candidates.reserve(2);
+            candidates.reserve(20);
         }
 
         ~HashTreeNode() 
@@ -34,7 +34,7 @@ class HashTreeNode {
 		//wrzuca wsk na kandydata do wektora
 		void insertCandidate(Candidate* p_candidate)
 		{
-		    if(children.empty() && candidates.size() < 2 || level >= p_candidate->getAttributes()->size()) {
+		    if(children.empty() && candidates.size() < 20 || level >= p_candidate->getAttributes()->size()) {
                 candidates.push_back(p_candidate);
 		    }
             else {
@@ -72,10 +72,10 @@ class HashTreeNode {
 			}
 			map<int,HashTreeNode*>::iterator it;
 			//hashujemy od aktualnej pozycji do konca bez ostatnich (k - level - 1) pozycji
-			//int maxPosition = p_attrDense->size() - (candidateLenght - level - 1);
-			//if(maxPosition > p_attrDense->size())
-                //maxPosition = p_attrDense->size();
-			for(int i = currentPosition; i < p_attrDense->size(); ++i) {
+			int maxPosition = p_attrDense->size() - (candidateLenght - level - 1);
+			if(maxPosition > p_attrDense->size())
+                maxPosition = p_attrDense->size();
+			for(int i = currentPosition; i < maxPosition; ++i) {
                 it = children.find(p_attrDense->at(i) % hash_arg);
                 if(it != children.end()) {
                     it->second->countSupport(p_attrDense, tClass, i + 1);

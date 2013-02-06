@@ -186,16 +186,20 @@ class TupleCreator {
                                                 v = tuples->at(i)->getAttribute(*it);
                                                 v -= min;
                                                 v /= part;
-                                                tuples->at(i)->setAttribute(*it, v);
+                                                tuples->at(i)->setAttribute(*it, (int)v/5);
                                         }
                                 } else if(min < 0) {
                                         //podnosimy wartosci o -min
                                         for(int i = 0; i < tuples->size(); ++i) {
                                                 v = tuples->at(i)->getAttribute(*it);
-                                                tuples->at(i)->setAttribute(*it, v - min);
+                                                tuples->at(i)->setAttribute(*it, (int)(v - min)/5);
                                         }
                                 } else {
-                                        //przedzial jest mniejszy niz 101 i sa to liczby dodatanie - nic nie robimy
+									//przedzial jest mniejszy niz 101 i sa to liczby dodatanie - nic nie robimy
+									for(int i = 0; i < tuples->size(); ++i) {
+										v = tuples->at(i)->getAttribute(*it);
+										tuples->at(i)->setAttribute(*it, (int)v/5);
+									}
                                 }
  
                         }
